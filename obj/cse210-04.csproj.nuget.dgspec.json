@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vipe1\\Documents\\School\\CS210\\cse210-04\\cse210-04.csproj": {}
+    "F:\\School\\CSE 210\\Projects\\cse210-04\\cse210-04.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vipe1\\Documents\\School\\CS210\\cse210-04\\cse210-04.csproj": {
+    "F:\\School\\CSE 210\\Projects\\cse210-04\\cse210-04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vipe1\\Documents\\School\\CS210\\cse210-04\\cse210-04.csproj",
+        "projectUniqueName": "F:\\School\\CSE 210\\Projects\\cse210-04\\cse210-04.csproj",
         "projectName": "cse210-04",
-        "projectPath": "C:\\Users\\Vipe1\\Documents\\School\\CS210\\cse210-04\\cse210-04.csproj",
-        "packagesPath": "C:\\Users\\Vipe1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vipe1\\Documents\\School\\CS210\\cse210-04\\obj\\",
+        "projectPath": "F:\\School\\CSE 210\\Projects\\cse210-04\\cse210-04.csproj",
+        "packagesPath": "C:\\Users\\vipe1.DESKTOP-QDPLFGI\\.nuget\\packages\\",
+        "outputPath": "F:\\School\\CSE 210\\Projects\\cse210-04\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vipe1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "D:\\Appdata\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[4.0.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
